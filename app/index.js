@@ -1,8 +1,8 @@
 import { h, render } from 'preact';
+import { Button } from 'preact-bootstrap-ui';
 
 render((
-    <div id="foo">
-        <span>Hello, world!</span>
-        <button onClick={ e => alert("hi!") }>Click Me</button>
-    </div>
+  <div>
+    <Button type="button" color="primary" size="lg">Click me</Button>
+  </div>
 ), document.body);
