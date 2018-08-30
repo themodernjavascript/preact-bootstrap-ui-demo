@@ -3,6 +3,6 @@ import { Button } from 'preact-bootstrap-ui';
 
 render((
   <div>
-    <Button type="button" color="primary" size="lg">Click me</Button>
+    <Button type="button" color="primary" size="lg" fullWidth={true}>Click me</Button>
   </div>
 ), document.body);
